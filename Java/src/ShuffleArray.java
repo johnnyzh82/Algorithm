@@ -3,49 +3,48 @@
  * Shuffle deck of cards
  * Shuffle list of songs
  */
-// no matter what object you shuffle, we can always use an array to hold all objects, and shuffle every elements based on index
-class Card {
-	public String suit;
-	public String card;
-	public Card(String suit, String card){
-		this.suit = suit;
-		this.card = card;
+public class ShuffleArray {
+	// no matter what object you shuffle, we can always use an array to hold all objects, and shuffle every elements based on index
+	static class Card {
+		public String suit;
+		public String card;
+		public Card(String suit, String card){
+			this.suit = suit;
+			this.card = card;
+		}
 	}
-}
 
-class Deck {
-	public final int DECK_SIZE = 52;
-	public Card[] CARDS = new Card[DECK_SIZE];
-	String[] suits = {"spades", "hearts", "clovers", "diamonds"};
-	String[] cards = {"Ace", "2", "3", "4", "5", "6", "7", "8", "9", "10", "Joker", "Queen", "King"};
-	public Deck(){
-		int cardIndex = 0;
-		for(String suit : suits){
-			for(String card : cards){
-				CARDS[cardIndex] = new Card(suit, card);
-				cardIndex++;
+	static class Deck {
+		public final int DECK_SIZE = 52;
+		public Card[] CARDS = new Card[DECK_SIZE];
+		String[] suits = {"spades", "hearts", "clovers", "diamonds"};
+		String[] cards = {"Ace", "2", "3", "4", "5", "6", "7", "8", "9", "10", "Joker", "Queen", "King"};
+		public Deck(){
+			int cardIndex = 0;
+			for(String suit : suits){
+				for(String card : cards){
+					CARDS[cardIndex] = new Card(suit, card);
+					cardIndex++;
+				}
 			}
 		}
-	}
-	public void shuffle(){
-		for(int i=DECK_SIZE-1; i>0; i--){
-			int random = (int)(Math.random()*i);
-			swap(random,i);
+		public void shuffle(){
+			for(int i=DECK_SIZE-1; i>0; i--){
+				int random = (int)(Math.random()*i);
+				swap(random,i);
+			}
+		}
+		public void printCard(){
+			for(Card c : CARDS){
+				System.out.println(c.suit + "\t" + c.card);
+			}
+		}
+		private void swap(int x, int y) {
+			Card temp = CARDS[x];
+			CARDS[x] = CARDS[y];
+			CARDS[y] = temp;
 		}
 	}
-	public void printCard(){
-		for(Card c : CARDS){
-			System.out.println(c.suit + "\t" + c.card);
-		}
-	}
-	private void swap(int x, int y) {
-		Card temp = CARDS[x];
-		CARDS[x] = CARDS[y];
-		CARDS[y] = temp;
-	}
-}
-
-public class ShuffleArray {
 	public void shuffle(int [] arr){
 		if(arr == null) return;
 		for(int i=arr.length-1; i>0; i--){
