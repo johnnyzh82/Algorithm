@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1cf1331f-e9a9-4d5d-9727-29443dc58faa" name="Default" comment="large element on right">
+    <list default="true" id="1cf1331f-e9a9-4d5d-9727-29443dc58faa" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Java.iws" />
@@ -77,8 +77,8 @@
       <file leaf-file-name="BoundryTreeTraversal.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Tree/BoundryTreeTraversal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.097222224">
-              <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.7486111">
+              <caret line="81" column="5" selection-start-line="81" selection-start-column="5" selection-end-line="81" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -634,7 +634,13 @@
       <option name="project" value="LOCAL" />
       <updated>1456463627072</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="c">
+      <created>1456463692169</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1456463692169</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -705,7 +711,8 @@
     <MESSAGE value="conneccted with n rope with minimum cost" />
     <MESSAGE value="using array to implement heap,&#10;1, add to heap&#10;2, reheapify" />
     <MESSAGE value="boundary traverse tree.&#10;1, print root&#10;2, print left,&#10;3, print leaf&#10;4, print right" />
-    <option name="LAST_COMMIT_MESSAGE" value="boundary traverse tree.&#10;1, print root&#10;2, print left,&#10;3, print leaf&#10;4, print right" />
+    <MESSAGE value="c" />
+    <option name="LAST_COMMIT_MESSAGE" value="c" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -921,8 +928,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Tree/BoundryTreeTraversal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.097222224">
-          <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.7486111">
+          <caret line="81" column="5" selection-start-line="81" selection-start-column="5" selection-end-line="81" selection-end-column="5" />
           <folding />
         </state>
       </provider>
