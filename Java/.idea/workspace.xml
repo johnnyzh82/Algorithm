@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1cf1331f-e9a9-4d5d-9727-29443dc58faa" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Array/LeetCodeCandy.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/SystemDesign/NetworkPacket/EntityHeader.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/SystemDesign/NetworkPacket/GeneralHeaders.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/SystemDesign/NetworkPacket/HttpRequest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/SystemDesign/NetworkPacket/HttpResponse.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/SystemDesign/NetworkPacket/RequestHeaders.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/SystemDesign/NetworkPacket/RequestLine.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/SystemDesign/NetworkPacket/ResponseHeader.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/SystemDesign/NetworkPacket/StatusLine.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Java.iws" />
@@ -25,11 +32,91 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="LeetCodeCandy.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LeetCodeCandy.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Array/LeetCodeCandy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7960894">
+            <state vertical-scroll-proportion="0.0">
               <caret line="38" column="22" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RequestLine.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/SystemDesign/NetworkPacket/RequestLine.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GeneralHeaders.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/SystemDesign/NetworkPacket/GeneralHeaders.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RequestHeaders.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/SystemDesign/NetworkPacket/RequestHeaders.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HttpResponse.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/SystemDesign/NetworkPacket/HttpResponse.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="35" selection-start-line="0" selection-start-column="35" selection-end-line="0" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EntityHeader.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/SystemDesign/NetworkPacket/EntityHeader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ResponseHeader.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/SystemDesign/NetworkPacket/ResponseHeader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StatusLine.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/SystemDesign/NetworkPacket/StatusLine.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HttpRequest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/SystemDesign/NetworkPacket/HttpRequest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -40,6 +127,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -78,6 +166,15 @@
         <option value="$PROJECT_DIR$/src/BoundryTreeTraversal.java" />
         <option value="$PROJECT_DIR$/src/Tree/BoundryTreeTraversal.java" />
         <option value="$PROJECT_DIR$/src/Array/LeetCodeCandy.java" />
+        <option value="$PROJECT_DIR$/src/SystemDesign/NetworkPacket/GeneralHeaders.java" />
+        <option value="$PROJECT_DIR$/src/SystemDesign/NetworkPacket/RequestHeaders.java" />
+        <option value="$PROJECT_DIR$/src/SystemDesign/NetworkPacket/Method.java" />
+        <option value="$PROJECT_DIR$/src/SystemDesign/NetworkPacket/HttpRequest.java" />
+        <option value="$PROJECT_DIR$/src/SystemDesign/NetworkPacket/RequestLine.java" />
+        <option value="$PROJECT_DIR$/src/SystemDesign/NetworkPacket/StatusLine.java" />
+        <option value="$PROJECT_DIR$/src/SystemDesign/NetworkPacket/ResponseHeader.java" />
+        <option value="$PROJECT_DIR$/src/SystemDesign/NetworkPacket/EntityHeader.java" />
+        <option value="$PROJECT_DIR$/src/SystemDesign/NetworkPacket/HttpResponse.java" />
       </list>
     </option>
   </component>
@@ -129,6 +226,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -565,7 +676,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="813" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -577,7 +688,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2446524" sideWeight="0.49722221" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24305555" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24305555" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -761,6 +872,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="47" column="5" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -856,8 +970,72 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Array/LeetCodeCandy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7960894">
+        <state vertical-scroll-proportion="0.0">
           <caret line="38" column="22" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SystemDesign/NetworkPacket/HttpRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SystemDesign/NetworkPacket/RequestLine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SystemDesign/NetworkPacket/StatusLine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SystemDesign/NetworkPacket/ResponseHeader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SystemDesign/NetworkPacket/EntityHeader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SystemDesign/NetworkPacket/GeneralHeaders.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SystemDesign/NetworkPacket/RequestHeaders.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SystemDesign/NetworkPacket/HttpResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="35" selection-start-line="0" selection-start-column="35" selection-end-line="0" selection-end-column="35" />
           <folding />
         </state>
       </provider>
