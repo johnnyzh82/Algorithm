@@ -27,7 +27,7 @@ public class atoi {
             i++;
         }
 
-        
+
         int num = 0;
         while(i<n && Character.isDigit(str.charAt(i))){
             int digit = Character.getNumericValue(str.charAt(i));
